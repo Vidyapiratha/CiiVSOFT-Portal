@@ -1,0 +1,52 @@
+[
+  {
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string",
+    "password": "12345678",
+    "confirmPassword": "12345678"
+  },
+  {
+    "firstName": "Sarangan",
+    "lastName": "Janakan",
+    "email": "sarangan.15@cse.mrt.ac.lk",
+    "password": "12345678",
+    "confirmPassword": "12345678"
+  },
+  {
+    "firstName": "Vidyapiratha",
+    "lastName": "Raveendirarasa",
+    "email": "raveendirarasavidyapiratha@gmail.com",
+    "password": "123",
+    "confirmPassword": "123"
+  },
+  {
+    "firstName": "Vidyapiratha",
+    "lastName": "Raveendirarasa",
+    "email": "abc@abc.com",
+    "password": "123",
+    "confirmPassword": "123"
+  },
+  {
+    "firstName": "Vidyapiratha",
+    "lastName": "Raveendirarasa",
+    "email": "ab@abc.com",
+    "password": "1234",
+    "confirmPassword": "1234"
+  },
+  {
+    "firstName": "Vidyapiratha",
+    "lastName": "Raveendirarasa",
+    "email": "abx@abc.com",
+    "password": "1234",
+    "confirmPassword": "1234"
+  },
+  {
+    "firstName": "Vidyapiratha",
+    "lastName": "Raveendirarasa",
+    "email": "a@a.com",
+    "password": "123",
+    "confirmPassword": "123",
+    "token": "412817"
+  }
+]

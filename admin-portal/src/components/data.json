@@ -1,0 +1,13 @@
+{
+  "companyName": "Company Name 4",
+  "ats": "Greenhouse",
+  "apiUsername": "Filled/focus",
+  "apiPassword": "********",
+  "perMonthEstimate": 160000,
+  "actualPerMonth": 8000,
+  "keyContact": {
+    "name": "Casey Jimenez",
+    "email": "caseyjimenez@outlook.com",
+    "role": "Hiring Manager"
+  }
+}

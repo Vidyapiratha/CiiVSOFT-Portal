@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  TestFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: users/index.lambdaHandler
+      Runtime: nodejs18.x
+      Environment:
+        Variables:
+          DB_HOST: "localhost" # Directly specify the value
+          DB_USERNAME: "admin"
+          DB_PASSWORD: "{{resolve:secretsmanager:MySecret:SecretString:DB_PASSWORD}}" # Using AWS Secrets Manager
+          DB_NAME: "ciivClient"
+          AWS_REGION: "eu-west-2" # Typically not needed unless specifically used in code
+      Events:
+        PostUser:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+
+Outputs:
+  ApiURL:
+    Description: "API endpoint URL for Test function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Stage/users"

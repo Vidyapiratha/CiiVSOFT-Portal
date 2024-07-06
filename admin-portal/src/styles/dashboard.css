@@ -1,0 +1,5 @@
+/* addClients.css */
+.main-content .MuiGrid-item {
+  display: flex; /* Ensures cards align well and fill space */
+  justify-content: center; /* Centers cards in their grid column */
+}

@@ -1,0 +1,29 @@
+/* AddClients.css */
+.add-clients-container {
+  margin-left: 60px;
+  padding: 20px;
+  width: calc(100% - 60px);
+}
+
+.primary-btn {
+  margin-top: 20px;
+}
+
+.main-content {
+  flex-grow: 1; /* Takes up the remaining space */
+  transition: margin-left 0.3s; /* Smooth transition for margin changes */
+  /* padding: 0 20px; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.navigationButton:hover {
+  color: black;
+}
+.navigationButton {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}

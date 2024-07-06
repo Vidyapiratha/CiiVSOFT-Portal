@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d7edff;
+}
+
+.form-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  position: relative;
+  background: #d7edff;
+  border-radius: 5px;
+  /* justify-content: center; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.dashboard-container nav {
+  width: 200px;
+  background: #343a40;
+  padding: 20px;
+  color: white;
+}
+
+.dashboard-container nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-container nav ul li {
+  margin-bottom: 10px;
+}
+
+.dashboard-container nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-container main {
+  flex: 1;
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.add-clients-container {
+  width: 70%;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.add-clients-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+}
+
+.step span {
+  display: block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  background: #ccc;
+  color: white;
+  margin: 0 auto 10px;
+}
+
+.step.active span {
+  background: #007bff;
+}
+
+.step.active {
+  color: #007bff;
+}
+
+.add-client-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.add-contact-btn {
+  align-self: flex-start;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.next-btn {
+  align-self: flex-end;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

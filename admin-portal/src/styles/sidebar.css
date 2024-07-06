@@ -1,0 +1,25 @@
+/* Sidebar.css */
+.sidebar {
+  width: 60px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  transition: width 0.5s;
+}
+
+.sidebar:hover {
+  width: 250px;
+  background-color: #ffffff;
+}
+
+.MuiDrawer-paper {
+  width: inherit;
+  box-sizing: border-box;
+}
+
+.sidebar .MuiDrawer-paper {
+  background-color: #d7edff;
+}
+
+.sidebar .MuiDrawer-paper:hover {
+  background-color: #ffffff;
+}
